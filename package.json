@@ -1,0 +1,27 @@
+{
+  "name": "RxJSDemo",
+  "version": "1.0.0",
+  "description": "RxJS ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --config dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RxJS learning",
+    "RxJS first program"
+  ],
+  "author": "sarvesh.mca@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.6.0",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
